@@ -3,6 +3,8 @@ from flask_login import LoginManager,login_user, logout_user, login_required, cu
 from database import create_db
 from models import Task,User
 from forms import LoginForm, RegisterForm
+
+
 app = Flask(__name__)
 
 app.config.from_object("config.Config")
