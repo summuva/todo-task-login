@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <input type="text" name="titulo" id="titulo">
+        <label for="titulo">titulo</label>
+        <input type="text" name="descripcion" id="descripcion">
+        <label for="descripcion">nombre</label>
+        <button type="submit">enviar formulario</button>
+    </form>
+    {% for task in tasks %}
+    {{task.title}}
+    {{task.descripcion}}
+    {% endfor %}
+
+    <a href="/logout">cerrar sesion</a>
+</body>
+</html>
