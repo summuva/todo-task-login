@@ -6,19 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/" method="post">
+    <form action="/edit/{{task.id}}" method="post">
         {{ form.hidden_tag() }}
         {{form.title.label}}{{form.title}}
         {{form.description.label}}{{form.description}}
         {{form.done.label}}{{form.done}}
         <button type="submit" >Cargar</button>
     </form>
-    {% for task in tasks %}
-    <h3>{{task.title}}</h3> <a href="/edit/{{task.id}}">editar</a>
-    {{task.description}}
-    <br>
-    {% endfor %}
-
-    <a href="/logout">cerrar sesion</a>
 </body>
 </html>

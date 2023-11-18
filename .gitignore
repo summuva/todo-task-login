@@ -1,0 +1,68 @@
+# Entornos virtuales
+venv/
+
+# Archivo de variables de entorno
+.env
+
+# Archivos de configuración local
+/instance/
+
+# Archivos de registro
+*.log
+
+# Archivos de caché
+__pycache__/
+*.pyc
+
+# Archivos de base de datos
+*.db
+
+# Archivos de configuración de PyCharm
+.idea/
+
+# Archivos de configuración de Visual Studio Code
+.vscode/
+
+# Archivos generados durante la ejecución
+*.pyc
+*.pyo
+__pycache__/
+
+# Carpeta de compilación
+*.pyc
+
+# Carpeta de distribución
+dist/
+
+# Carpeta de construcción
+build/
+
+# Archivo de configuración de setup.py
+setup.cfg
+
+# Archivo de registro de instalación de dependencias
+pip-log.txt
+
+# Carpeta __pycache__ en el directorio principal
+__pycache__/
+
+# Archivos generados por pycodestyle
+*.pyc
+
+# Archivo de configuración de pipenv
+Pipfile.lock
+
+# Archivo de caché de pipenv
+.pipenv/
+
+# Archivos de caché de pytest
+__pycache__/
+.pytest_cache/
+
+# Carpeta de compilación de Cython
+*.pyo
+*.pyd
+__pycache__/
+
+# Archivos generados por Jupyter Notebook
+.ipynb_checkpoints/
